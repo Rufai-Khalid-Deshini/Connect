@@ -39,7 +39,7 @@ const Signup = () => {
 
         setLoading(true);
         axios
-            .post('http://localhost:5555/user', formData)
+            .post('https://connect-backend-x2ns.onrender.com/user', formData)
             .then((req, res) => {
                 localStorage.setItem("userId", req.data._id);
                 navigate('/home');

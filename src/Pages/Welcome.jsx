@@ -9,7 +9,7 @@ const Welcome = () => {
                 <IoLogoFacebook size='8em' className='text-orange-600' />
                 <div>
                     <h1 className='text-orange-400 text-3xl text-center font-extrabold underline mb-3'>K-Connect</h1>
-                    <p className='text-slate-900 dark:text-white'>A social app for students to interact and share useful resources</p>
+                    <p className='text-slate-900 dark:text-white text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi iusto, optio corporis dolorum ipsa sapiente vitae rerum libero? Hic, alias repudiandae.</p>
                 </div>
             </div>
            

@@ -17,7 +17,7 @@ const Profile = () => {
         if(id) {
             setLoading(true);
             axios
-                .get(`http://localhost:5555/user/${id}`)
+                .get(`https://connect-backend-x2ns.onrender.com/user/${id}`)
                 .then((req, res) => {
                     setInfo(req.data)
                     setLoading(false);

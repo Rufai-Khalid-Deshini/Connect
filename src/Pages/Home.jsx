@@ -35,7 +35,7 @@ const Home = () => {
             postContent: postDet
         }
         axios
-            .post('http://localhost:5555/posts', data)
+            .post('https://connect-backend-x2ns.onrender.com/posts', data)
             .then((req, res) => {
                 setSnackbar({
                     message: "Post sent successfully",
@@ -68,7 +68,7 @@ const Home = () => {
 
             setLoading(true);
             axios
-                .get('http://localhost:5555/posts/postdetails')
+                .get('https://connect-backend-x2ns.onrender.com/posts/postdetails')
                 .then((req, res) => {
                     setPosts(req.data);
                     setLoading(false);
